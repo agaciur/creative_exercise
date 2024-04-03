@@ -1,0 +1,39 @@
+.addInput {
+  margin: 0.5rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 3;
+}
+
+.addInput button img {
+  margin-left: 0.1rem;
+  width: 2.2rem;
+  height: 2.2rem;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+.addInput button img:hover {
+  transform: rotate(90deg);
+}
+
+.addInput input {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  width: 140px;
+  border: 1px solid black;
+}
+
+.addInput button {
+  border: none;
+  background: transparent;
+  display: flex;
+}
+
+.error {
+  margin-left: 1rem;
+  color: red;
+  font-weight: 700;
+  font-size: 0.75rem;
+}

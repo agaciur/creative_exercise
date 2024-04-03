@@ -1,0 +1,10 @@
+.container {
+  margin: 0 auto;
+  padding: 1rem;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9faf5;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
